@@ -2,19 +2,25 @@
 
 #include <stdio.h>
 
-int main()
-{
-    int n;
+int main() 
+{   
+  int num; 
 
-    printf("Enter a number: ");
-    scanf("%d", &n);
+  printf("Enter a number: ");  
+  scanf("%d", &num);  
 
-    if(n > 0)
-        printf("Positive number");
-    else if(n < 0)
-        printf("Negative number");
-    else
-        printf("Zero");
-
-    return 0;
+  if (num > 0)  
+{    
+  printf("%d is a Positive number.\n", num);  
+}   
+  else if (num < 0)    
+{    
+  printf("%d is a Negative number.\n", num);  
+}  
+  else  
+{  
+  printf("The number is Zero.\n");  
+}  
+  return 0; 
 }
+
